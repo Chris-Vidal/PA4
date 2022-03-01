@@ -148,7 +148,7 @@ void FitnessAppWrapper::storeWDF()
 	}
 	store.close();
 }
-
+//
 void FitnessAppWrapper::storeWEF()
 {
 	std::ofstream store;
