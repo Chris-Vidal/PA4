@@ -29,8 +29,8 @@ public:
 	void setPlan(const std::string inputPlan);
 	void setDate(const std::string inputD);
 
-	friend std::ostream& operator<<(std::ostream& os, const DietPlan& a);
-	friend std::ostream& operator>>(std::ostream& os, const DietPlan& a);
+	//friend std::ostream& operator<<(std::ostream& os, const DietPlan& a);
+	//friend std::ostream& operator>>(std::ostream& os, const DietPlan& a);
 
 	//~DietPlan();
 

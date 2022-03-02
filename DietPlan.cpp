@@ -10,10 +10,10 @@
 
 //std::ostream& operator<<(std::ostream& os, const DietPlan& a)
 //{
-//	//cout << " " << endl;
+//	std::cout << a.getCal() << std::endl;
 //	return os;
 //}
-//
+
 //std::ostream& operator>>(std::ostream& os, const DietPlan& a)
 //{
 //	return os;

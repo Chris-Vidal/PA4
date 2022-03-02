@@ -43,16 +43,16 @@ void ExercisePlan::setDate(const std::string inputD)
 //}
 //friend std::ostream& operator>>(std::ostream& os, const ExercisePlan& a);
 
-std::ostream& operator<<(std::ostream &os, const ExercisePlan &a)
-{
-	//cout << " " << endl;
-	return os;
-}
-
-std::ostream& operator>>(std::ostream &os, const ExercisePlan &a)
-{
-	return os;
-}
+//std::ostream& operator<<(std::ostream &os, const ExercisePlan &a)
+//{
+//	//cout << " " << endl;
+//	return os;
+//}
+//
+//std::ostream& operator>>(std::ostream &os, const ExercisePlan &a)
+//{
+//	return os;
+//}
 
 //ExercisePlan::~ExercisePlan()
 //{
